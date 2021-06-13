@@ -1,0 +1,32 @@
+:root {
+  --branding-color: #6d031c;
+  --background-primary: #e1e2d9;
+  --default-font-family: "Nunito", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+.hero {
+  background: var(--background-primary);
+  text-align: center;
+  padding: 60px 20px;
+}
+h1 {
+  color: var(--branding-color);
+  font-weight: bold;
+  font-size: 72px;
+}
+.sub-heading {
+  color: #806868;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 15px;
+}
+.btn-branding {
+  background: #3f0f19;
+  color: #e8eff9;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 22px;
+  line-height: 2;
+}
