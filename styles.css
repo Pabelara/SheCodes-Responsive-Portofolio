@@ -1,32 +1,64 @@
 :root {
-  --branding-color: #6d031c;
-  --background-primary: #e1e2d9;
+  --branding-color: #72a2ac;
+  --background-primary: #007a79;
+  --heading-color: #cb9573;
+  --highlights-color: #4d2a16;
   --default-font-family: "Nunito", sans-serif;
 }
+
 body {
   font-family: var(--default-font-family);
+  background-color: var(--branding-color);
 }
 .hero {
-  background: var(--background-primary);
   text-align: center;
+  background-image: url("https://i.pinimg.com/originals/e0/32/8b/e0328bbce1e96b6cf147000dca35d4a9.jpg");
+  background-size: cover;
   padding: 60px 20px;
+  border: 2px solid var(--highlights-color);
 }
 h1 {
-  color: var(--branding-color);
-  font-weight: bold;
+  color: var(--heading-color);
+  font-weight: bolder;
   font-size: 72px;
 }
 .sub-heading {
-  color: #806868;
+  color: #c7cedf;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 26px;
   padding: 15px;
 }
-.btn-branding {
-  background: #3f0f19;
-  color: #e8eff9;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 22px;
+
+img {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid var(--highlights-color);
+  box-shadow: 0px 8px 8px 0px rgba(37, 39, 89, 0.08);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  text-align: center;
+}
+p {
+  color: var(--highlights-color);
+  font-size: 20px;
+  font-weight: bolder;
   line-height: 2;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  .sub-heading {
+    display: none;
+  }
+  img {
+    width: 150px;
+  }
+  .recipe {
+    font-size: 18px;
+  }
 }
