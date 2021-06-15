@@ -3,6 +3,7 @@
   --background-primary: #007a79;
   --heading-color: #cb9573;
   --highlights-color: #4d2a16;
+  --button-color: #bf3f27;
   --default-font-family: "Nunito", sans-serif;
 }
 
@@ -10,7 +11,8 @@ body {
   font-family: var(--default-font-family);
   background-color: var(--branding-color);
 }
-.hero {
+.hero,
+.about {
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/e0/32/8b/e0328bbce1e96b6cf147000dca35d4a9.jpg");
   background-size: cover;
@@ -21,6 +23,11 @@ h1 {
   color: var(--heading-color);
   font-weight: bolder;
   font-size: 72px;
+}
+h2 {
+  text-align: center;
+  color: var(--highlights-color);
+  margin-top: 10px;
 }
 .sub-heading {
   color: #c7cedf;
@@ -47,6 +54,15 @@ p {
   font-size: 20px;
   font-weight: bolder;
   line-height: 2;
+  text-align: center;
+}
+.about-container {
+  margin-top: 20px;
+}
+.btn-branding {
+  background: var(--button-color);
+  border: 1px solid var(--highlights-color);
+  color: white;
 }
 @media (max-width: 768px) {
   h1 {
