@@ -66,10 +66,16 @@ p {
   color: white;
 }
 .favorites,
-.home {
+.home,
+.recipes {
   padding: 10px 20px;
   display: flex;
   justify-content: center;
+}
+.citation {
+  text-decoration: none;
+  color: var(--highlights-color);
+  font-size: 15px;
 }
 @media (max-width: 768px) {
   h1 {
