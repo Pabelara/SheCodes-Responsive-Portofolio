@@ -11,8 +11,7 @@ body {
   font-family: var(--default-font-family);
   background-color: var(--branding-color);
 }
-.hero,
-.about {
+.hero {
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/e0/32/8b/e0328bbce1e96b6cf147000dca35d4a9.jpg");
   background-size: cover;
@@ -72,10 +71,17 @@ p {
   display: flex;
   justify-content: center;
 }
-.citation {
+.citatio,
+.contact {
   text-decoration: none;
   color: var(--highlights-color);
   font-size: 15px;
+}
+.contact {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   h1 {
