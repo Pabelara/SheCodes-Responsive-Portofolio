@@ -30,6 +30,18 @@ h2 {
   color: var(--highlights-color);
   margin-top: 10px;
 }
+ul {
+  list-style: none;
+}
+li {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--highlights-color);
+}
+.recipes-intro {
+  border-right: 2px solid var(--highlights-color);
+}
 .sub-heading {
   color: #c7cedf;
   font-weight: 500;
