@@ -145,4 +145,16 @@ h3 {
   .recipe {
     font-size: 18px;
   }
+  .citation {
+    font-size: 10px;
+  }
+  .footer-brand {
+    font-size: 25px;
+  }
+  footer {
+    margin: 0 auto;
+  }
+  .netlify {
+    width: 100%;
+  }
 }
