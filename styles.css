@@ -32,6 +32,11 @@ h2 {
 }
 ul {
   list-style: none;
+  padding: 0;
+}
+.dropdown {
+  font-family: var(--default-font-family);
+  font-size: 20px;
 }
 li {
   font-family: var(--default-font-family);
@@ -62,7 +67,6 @@ img {
 }
 .container {
   text-align: center;
-  margin-bottom: 10px;
 }
 p {
   color: var(--highlights-color);
@@ -78,6 +82,7 @@ p {
   background: var(--button-color);
   border: 1px solid var(--highlights-color);
   color: white;
+  margin-bottom: 10px;
 }
 .favorites,
 .home,

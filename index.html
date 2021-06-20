@@ -64,33 +64,30 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link title" href="recipes.html">Recipes</a>
-            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle title"
                 href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Recipes
               </a>
-              <div
+              <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#">Breakfast</a>
-                <a class="dropdown-item" href="#">Appetizers</a>
-                <a class="dropdown-item" href="#">Main</a>
-                <a class="dropdown-item" href="#">Sides</a>
-                <a class="dropdown-item" href="#">Sauces</a>
-                <a class="dropdown-item" href="#">Soups</a>
-                <a class="dropdown-item" href="#">Desserts</a>
-                <a class="dropdown-item" href="#">Drinks</a>
-              </div>
+                <li class="dropdown-item"><a href="#">Breakfast</a></li>
+                <li class="dropdown-item"><a href="#">Appetizers</a></li>
+                <li class="dropdown-item"><a href="#">Main</a></li>
+                <li class="dropdown-item"><a href="#">Sides</a></li>
+                <li class="dropdown-item"><a href="#">Sauces</a></li>
+                <li class="dropdown-item"><a href="#">Soups</a></li>
+                <li class="dropdown-item"><a href="#">Desserts</a></li>
+                <li class="dropdown-item"><a href="#">Drinks</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link title" href="favorites.html">Favorites</a>
@@ -118,15 +115,16 @@
             divided into 8 main sections:
           </p>
           <ul>
-            <li>Breakfast</li>
-            <li>Appetizers</li>
-            <li>Main Dishes</li>
-            <li>Sides</li>
-            <li>Soups</li>
-            <li>Sauces</li>
-            <li>Dessert</li>
-            <li>Drinks</li>
+            <li class="dropdown">Breakfast</li>
+            <li class="dropdown">Appetizers</li>
+            <li class="dropdown">Main Dishes</li>
+            <li class="dropdown">Sides</li>
+            <li class="dropdown">Soups</li>
+            <li class="dropdown">Sauces</li>
+            <li class="dropdown">Dessert</li>
+            <li class="dropdown">Drinks</li>
           </ul>
+          <a href="recipes.html" class="btn btn-branding">See Recipes</a>
         </div>
         <div class="col-6 favorites-intro">
           <h2>Favorites</h2>
@@ -138,7 +136,6 @@
         </div>
       </div>
     </div>
-    <br />
     <footer>
       <h3 class="footer-brand">PBA</h3>
       <div class="row">
