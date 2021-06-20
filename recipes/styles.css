@@ -89,6 +89,9 @@ p {
   color: white;
   margin-bottom: 10px;
 }
+.recipe-button {
+  text-align: center;
+}
 .favorites,
 .home,
 .recipes {
@@ -153,7 +156,26 @@ h3 {
 .navbar {
   border: 2px solid var(--highlights-color);
 }
-
+.values,
+.serving {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+.serving {
+  margin: 0;
+  font-weight: 800;
+}
+.ingredients {
+  text-align: left;
+  padding: 0px;
+}
+.recipe-img {
+  text-align: right;
+}
+.instructions {
+  text-align: center;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 50px;

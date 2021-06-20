@@ -34,7 +34,7 @@
       href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <nav
@@ -60,7 +60,7 @@
               <a
                 class="nav-link active title"
                 aria-current="page"
-                href="index.html"
+                href="../../index.html"
                 >Home</a
               >
             </li>
@@ -80,7 +80,7 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li class="dropdown-item">
-                  <a href="recipes/breakfast.html">Breakfast</a>
+                  <a href="../breakfast.html">Breakfast</a>
                 </li>
                 <li class="dropdown-item"><a href="#">Appetizers</a></li>
                 <li class="dropdown-item"><a href="#">Main</a></li>
@@ -92,51 +92,89 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link title" href="favorites.html">Favorites</a>
+              <a class="nav-link title" href="../../favorites.html"
+                >Favorites</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link title" href="contact.html">Contact Me</a>
+              <a class="nav-link title" href="../../contact.html">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="hero">
-      <h1>Recipe Collection</h1>
-      <p class="sub-heading">
-        Find a variety of delicious recipes <br />
-        to enjoy with all the family!
-      </p>
+      <h1>High Protein Oat Waffles</h1>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-6 recipes-intro">
-          <h2 class="introduction text-decoration-underline">Recipes</h2>
-          <p>
-            The recipes section of the website houses the recipes themselves
-            divided into 8 main sections:
-          </p>
-          <ul>
-            <li class="dropdown">Breakfast</li>
-            <li class="dropdown">Appetizers</li>
-            <li class="dropdown">Main Dishes</li>
-            <li class="dropdown">Sides</li>
-            <li class="dropdown">Soups</li>
-            <li class="dropdown">Sauces</li>
-            <li class="dropdown">Dessert</li>
-            <li class="dropdown">Drinks</li>
-          </ul>
-          <a href="recipes.html" class="btn btn-branding">See Recipes</a>
-        </div>
-        <div class="col-6 favorites-intro">
-          <h2 class="introduction text-decoration-underline">Favorites</h2>
-          <p>
-            Check out our favorites section for quick, easy access to the
-            recipes we enjoy making the most!
-          </p>
-          <img src="media/Flan.jpg" alt="Flan" />
-        </div>
+    <p class="serving">
+      Servings: 2 | Amount Per Serving: 2 Small Waffles (1/2 Cup Batter)
+    </p>
+    <ul>
+      <li class="values">Calories: 121 | Fat: 4.5g</li>
+      <li class="values">Saturated Fat: 1.5g | Cholesterol: 81mg</li>
+      <li class="values">Carbohydrates: 12g | Dietary Fiber: 1.5g</li>
+      <li class="values">Sugar: 1.5g | Protein: 8.5g</li>
+    </ul>
+    <div class="row">
+      <div class="col-6 recipe-img">
+        <img src="../../media/Oat Waffles.png" alt="High Protein Oat Waffles" />
       </div>
+      <div class="col-6 ingredients">
+        <p class="text-decoration-underline ingredients">Ingredients</p>
+        <ul>
+          <li class="ingredients mb-2">
+            1) 2/3 cup 4% milk fat small curd cottage cheese
+          </li>
+          <li class="ingredients mb-2">2) 2 large eggs, separated</li>
+          <li class="ingredients mb-2">3) 1 tablespoon sugar, (optional)</li>
+          <li class="ingredients mb-2">
+            4) 1 cup oat flour, or grind old-fashioned rolled oats in blender
+          </li>
+          <li class="ingredients mb-2">5) 1 teaspoon vanilla extract</li>
+          <li class="ingredients mb-2">6) 1/4 teaspoon cinnamon</li>
+          <li class="ingredients mb-2">7) 1/2 teaspoon baking powder</li>
+          <li class="ingredients mb-2">8) 1/4 teaspoon kosher salt</li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-decoration-underline steps">Steps</p>
+    <ul>
+      <li class="instructions mb-3">
+        1) Heat a waffle iron on its medium setting.
+      </li>
+      <li class="instructions mb-3">
+        2) Place cottage cheese, egg yolks, vanilla, and sugar, if using in the
+        blender. <br />
+        Add 6 tablespoons water, oat flour, baking powder and salt and blend
+        until mixture is smooth batter. <br />
+        Transfer to a medium bowl using a spatula to get all the batter out.
+      </li>
+      <li class="instructions mb-3">
+        3) Beat the egg white to soft peaks then fold into the batter.
+      </li>
+      <li class="instructions mb-3">
+        4) Spray pre-heated waffle iron with oil spray. Pour batter into iron
+        (about 1/4 cup) and cook until golden brown and steam is no longer being
+        released.
+      </li>
+    </ul>
+    <p class="text-decoration-underline notes">Notes</p>
+    <ul>
+      <li class="instructions mb-3">
+        1) Reduced fat cottage cheese: If you use reduced fat you may want to
+        add a little oil.
+      </li>
+      <li class="instructions mb-3">
+        2) Meal Prep: The batter will last in the refrigerator 3 to 4 days if
+        you want to make it ahead. <br />
+        You can also make the waffles and refrigerate, then pop them in the
+        toaster.
+      </li>
+    </ul>
+    <div class="recipe-button">
+      <a href="../breakfast.html" class="btn btn-branding recipe-button"
+        >Back to Breakfast</a
+      >
     </div>
     <footer>
       <h3 class="footer-brand">PBA</h3>
@@ -144,7 +182,7 @@
         <div class="col-4">
           <a href="https://ecstatic-curie-b18537.netlify.app/"
             ><img
-              src="media/netlify icon.png"
+              src="../../media/netlify icon.png"
               alt="netlify icon"
               class="netlify"
             />
