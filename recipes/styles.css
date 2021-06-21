@@ -201,4 +201,10 @@ h3 {
   .netlify {
     width: 100%;
   }
+  .recipe-name {
+    font-size: 15px;
+  }
+  .btn-branding {
+    font-size: 12px;
+  }
 }
