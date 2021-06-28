@@ -58,6 +58,13 @@ li {
 .recipes-intro {
   border-right: 2px solid var(--highlights-color);
 }
+.recipe-link {
+  color: var(--highlights-color);
+  text-decoration: underline;
+}
+.recipe-link:hover {
+  color: var(--background-primary);
+}
 .sub-heading {
   color: #c7cedf;
   font-weight: 500;
