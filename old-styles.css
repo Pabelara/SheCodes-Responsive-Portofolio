@@ -200,3 +200,41 @@ h3 {
     padding: 5px;
   }
 }
+/* ==========================================================================
+   OPTIMIZED RECIPE PAGINATION STYLES
+   ========================================================================== */
+
+/* 1. INACTIVE NUMBERS & NEXT/PREVIOUS BUTTONS */
+.page-link {
+  color: #72a2ac !important; /* Your teal branding color */
+  background-color: #ffffff !important;
+  border-color: #dee2e6 !important;
+  font-family: "Nunito", sans-serif !important;
+  transition: all 0.2s ease;
+}
+
+/* 2. HOVER STATE */
+.page-link:hover {
+  color: #4a6f76 !important; /* Darker teal text when hovering */
+  background-color: #eef6f7 !important;
+  border-color: #72a2ac !important;
+}
+
+/* 3. ACTIVE PAGE NUMBER */
+.page-item.active .page-link {
+  color: #ffffff !important; /* Crisp white text */
+  background-color: #72a2ac !important; /* Solid teal background box */
+  border-color: #72a2ac !important;
+}
+
+/* 4. DISABLED BUTTONS */
+.page-item.disabled .page-link {
+  color: #6c757d !important; /* Muted dark gray text */
+  background-color: #f8f9fa !important; /* Light gray background box */
+  border-color: #dee2e6 !important;
+}
+
+/* 5. FOCUS GLOW */
+.page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(114, 162, 172, 0.25) !important;
+}
